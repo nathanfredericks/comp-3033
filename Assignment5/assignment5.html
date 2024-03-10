@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="assignment5.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Top 20 Baby Names in Nova Scotia</h1>
+    <form onsubmit="search();return false;">
+        <label for="year">Year:</label>
+        <select name="year" id="year">
+        </select><br>
+        <label for="birth-sex">Sex:</label>
+        <select name="birth-sex" id="birth-sex">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select><br>
+        <button type="submit">Search</button>
+    </form>
+    <img class="loading" src="images/loading.gif"  alt="search results loading"/>
+    <h2 class="results-header">Search Results</h2>
+    <p class="no-results">No search results.</p>
+    <ol class="results"></ol>
+    <script src="assignment5.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    font-family: monospace;
+    color: greenyellow;
+    background-color: black;
+}
+
+/* Navigation Bar */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid greenyellow;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.menu li a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 5px;
+}
+
+/* Coursework Table */
+.coursework table,
+.coursework th,
+.coursework td {
+    border: 1px solid greenyellow;
+}
+
+/* Cat Pictures */
+.cat {
+    border: 1px solid greenyellow;
+}
+
+/* Learning Objectives List */
+.learning-objectives {
+    list-style-type: decimal-leading-zero;
+}
+
+/* Profile Picture */
+.profile {
+    border-radius: 50%;
+}
